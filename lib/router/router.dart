@@ -5,6 +5,7 @@ import 'package:hotel_time/features/home/home.dart';
 import 'package:hotel_time/features/services/services.dart';
 import 'package:hotel_time/features/shops/shops.dart';
 import 'package:hotel_time/features/login/login.dart';
+import 'package:hotel_time/features/user_profile/user_profile.dart';
 
 part 'router.gr.dart';
 
@@ -39,6 +40,10 @@ class AppRouter extends _$AppRouter {
             AutoRoute(
               page: ShopsRoute.page,
               path: 'shops',
+            ),
+            AutoRoute(
+              page: UserProfileRoute.page,
+              path: 'user-profile',
             ),
           ],
         ),

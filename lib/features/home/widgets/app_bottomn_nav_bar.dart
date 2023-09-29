@@ -16,6 +16,7 @@ class AppBottomnNavBar extends StatelessWidget {
           ChartRoute(),
           SettingsRoute(),
           ShopsRoute(),
+          UserProfileRoute(),
         ],
         builder: (context, child) {
           return BottomNavigationBar(
@@ -38,6 +39,10 @@ class AppBottomnNavBar extends StatelessWidget {
               BottomNavigationBarItem(
                 icon: const Icon(Icons.room_service_outlined),
                 label: S.of(context).bottomNavigationBarServices,
+              ),
+              BottomNavigationBarItem(
+                icon: const Icon(Icons.shopping_bag_outlined),
+                label: S.of(context).bottomNavigationBarShops,
               ),
               BottomNavigationBarItem(
                 icon: const Icon(Icons.shopping_bag_outlined),
