@@ -24,7 +24,7 @@ class UserProfileScreen extends StatelessWidget {
           ),
           ElevatedButton(
             child: const Text('Test'),
-            onPressed: () {
+            onPressed: () async {
               final docUser = FirebaseFirestore.instance.collection("users");
               var userInfo = FirebaseAuth.instance.currentUser;
               final json = {
@@ -32,6 +32,8 @@ class UserProfileScreen extends StatelessWidget {
                 'phone': userInfo?.phoneNumber,
                 'birthday': DateTime(2023, 9, 28),
               };
+
+              await docUser.add(json);
             },
           ),
         ],
