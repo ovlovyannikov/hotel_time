@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1039130896870",
+    "project_id": "hotel-time",
+    "storage_bucket": "hotel-time.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039130896870:android:eea8e18f85e1479361ce27",
+        "android_client_info": {
+          "package_name": "com.example.hotel_time"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039130896870-mauk4cbfa26i6usmr4sa9pk235umcp7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBx7mLOP44gTcANXIBU6HgMNaTj_487Dk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039130896870-mauk4cbfa26i6usmr4sa9pk235umcp7l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1039130896870-oul9ac4dls6e7d6s3ulr65j2upachif2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lovyan.hoteltime"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

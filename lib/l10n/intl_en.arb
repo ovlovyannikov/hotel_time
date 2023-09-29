@@ -1,0 +1,30 @@
+{
+    "appTitle": "Hotel Time",
+    "appVersion": "v1.0.0",
+    "appPoweredBy": "Povered by ",
+
+    "bottomNavigationBarServices": "Services",
+    "bottomNavigationBarChart": "Chart",
+    "bottomNavigationBarEvents": "Events",
+    "bottomNavigationBarShops": "Shops",
+    "bottomNavigationBarLogin": "Login",
+
+    "drawerProfile": "Profile",
+    "drawerTravels": "Travels",
+    "drawerDocs": "Documents",
+    "drawerFlyRaces": "Fly races",
+    "drawerSettings": "Settings",
+    "drawerOpenLabel": "Open information about user",
+
+    "loginFieldPhoneLable": "Phone Verification",
+    "loginFieldPhoneHint": "Phone",
+    "loginButtonTitle": "Send the code",
+    "loginVerifyPhoneLable": "Verify Phone Number",
+    "loginEditPhoneLable": "Edit Phone Number ?",
+    "loginWrongVerifyPhoneCode": "Wrong verify code",
+    "loginEmptyPhoneField": "Please fill phone number field",
+    "loginSomethingWrongWithCaptchaVerify": "Something wrong with phone check",
+    "loginCodeFromSMS": "Enter code from SMS",
+
+    "urlCantOpen": "URL can't be launched."
+}
